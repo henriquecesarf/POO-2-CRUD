@@ -28,35 +28,35 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Label3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Label1" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="txt_desc" max="32767" attributes="0"/>
-                          <Component id="txt_nome" pref="98" max="32767" attributes="0"/>
+                          <Component id="Text_desc" max="32767" attributes="0"/>
+                          <Component id="LaberTxt_Name" pref="98" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="74" pref="57" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="Label2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <Component id="jtb_Novo" min="-2" max="-2" attributes="0"/>
+                              <Component id="btn_new" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jtb_Up" max="32767" attributes="0"/>
-                          <Component id="txt_id" max="32767" attributes="0"/>
+                          <Component id="jtb_Button_Up" max="32767" attributes="0"/>
+                          <Component id="Text_ID" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="bt_del" min="-2" max="-2" attributes="0"/>
+                      <Component id="Button_Delet" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
-                      <Component id="jScrollPane2" min="-2" pref="452" max="-2" attributes="0"/>
+                      <Component id="Scroll_Panel" min="-2" pref="452" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="54" max="32767" attributes="0"/>
@@ -68,69 +68,69 @@
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txt_nome" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txt_id" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LaberTxt_Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Text_ID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Label2" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jtb_Novo" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jtb_Up" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="bt_del" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txt_desc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Label3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_new" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtb_Button_Up" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Button_Delet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Text_desc" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jScrollPane2" min="-2" pref="229" max="-2" attributes="0"/>
+              <Component id="Scroll_Panel" min="-2" pref="229" max="-2" attributes="0"/>
               <EmptySpace pref="50" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="jtb_Novo">
+    <Component class="javax.swing.JButton" name="btn_new">
       <Properties>
         <Property name="text" type="java.lang.String" value="Novo"/>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jtb_NovoMouseClicked"/>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtb_NovoActionPerformed"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_newMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_newActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="Label1">
       <Properties>
         <Property name="text" type="java.lang.String" value="nome:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txt_nome">
+    <Component class="javax.swing.JTextField" name="LaberTxt_Name">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_nomeActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LaberTxt_NameActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="Label3">
       <Properties>
         <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jtb_Up">
+    <Component class="javax.swing.JButton" name="jtb_Button_Up">
       <Properties>
         <Property name="text" type="java.lang.String" value="Atualizar"/>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jtb_UpMouseClicked"/>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtb_UpActionPerformed"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jtb_Button_UpMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtb_Button_UpActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="bt_del">
+    <Component class="javax.swing.JButton" name="Button_Delet">
       <Properties>
         <Property name="text" type="java.lang.String" value="Excluir"/>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bt_delMouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Button_DeletMouseClicked"/>
       </Events>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+    <Container class="javax.swing.JScrollPane" name="Scroll_Panel">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -153,19 +153,19 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JTextField" name="txt_id">
+    <Component class="javax.swing.JTextField" name="Text_ID">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_idActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Text_IDActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="Label2">
       <Properties>
         <Property name="text" type="java.lang.String" value="ID:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txt_desc">
+    <Component class="javax.swing.JTextField" name="Text_desc">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_descActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Text_descActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
